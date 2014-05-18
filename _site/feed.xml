@@ -1,31 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Lynn's Chronicles</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2014-05-18T22:22:29+00:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Lynn Asiimwe</name>
+  <uri>http://localhost:4000/</uri>
+  <email></email>
+</author>
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+<entry>
+  <title type="html"><![CDATA[Code Girls Uganda]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/code-girls/" />
+  <id>http://localhost:4000/code-girls</id>
+  <published>2014-05-18T00:00:00+00:00</published>
+  <updated>2014-05-18T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I love programming. I tend to go into a meditative state(which I enjoy) when I write code where I disconnect with the world and my thoughts connect with code. I currently work for a small start-up company called accessmobile that allows to do that and at the same time create products that hope to disrupt the Ugandan market in areas of agriculture and health. I work with a great team and a great view of Kampala City.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Currently on my team I’m the only female and I tend to hang around many tech circles in Kampala and female presence is wanting. I felt I needed to do something about female presence in the Kampala tech scene especially as developers. Many male developers who happen to be my friends don’t see a need for the push as they didn’t receive a push while entering this field. Well unfortunately I feel different , I can’t watch an ecosystem in its infancy grow to and leave women behind.&lt;/p&gt;
 
-</description>
-        <pubDate>Sun, 11 May 2014 05:16:13 +0300</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/05/11/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/05/11/welcome-to-jekyll/</guid>
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;For the last two months , I have been running a python class at the Women in technology centre(WITU) in Kampala every Friday evening for two hours. The turn up was great on the first day , many ladies were excited to learn python and games programming(another class run by workmates). I have to recommend WITU on availing computers as some ladies don’t earn personal laptops but are keen to learn.&lt;/p&gt;
+
+&lt;h3 id=&quot;photos-from-the-first-python-class&quot;&gt;Photos from the first python class&lt;/h3&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
+&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
+&quot; title=&quot;First Python Clas&quot;&gt;First Python Class&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
+&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
+&quot; title=&quot;First Python Clas&quot;&gt;First Python Class&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;However the next week not so much, and over the next weeks we had a negative linear relationship .The feedback I got was the class was too difficult(feedback given when I arrived to topic of “for loops”). Besides that I offered weekly assignment and only a few of the ladies attempted while others didn’t attempt but were keen to collect notes on the “correct answers”. Any programmer out there who writes code for a living knows coding is about problem solving with active action not keeping note of “correct answers” which is passive. I tried to convey that in during my classes and even brought another female coder (Emily from Thoughtworks) to talk the ladies about taking action.&lt;/p&gt;
+
+&lt;p&gt;Well this didn’t kill my zeal , I went to every class with excitement to teach and also learn from my students. I also carried along candy to every class to encourage my students.I must say I’m proud of the few who remained. Below are three of my students who pulled through a microsoft developer boot camp :) . I also have a health worker who attended my class and now is on her way to building her own health web applications(she’s just gotten past the django intro page), an ecnomist who thinks python would be great for data crunching and a web developer who would like to explore outside of the borders of drupal.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
+&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
+&quot; title=&quot;First Python Clas&quot;&gt;Microsoft Apps Training&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>
