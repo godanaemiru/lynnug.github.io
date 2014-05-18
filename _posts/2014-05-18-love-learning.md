@@ -17,4 +17,4 @@ My little brother is an aspiring economist. He has a significant amount of stati
 
 My Dad is an economist. He loves economic critical analysis(especially of Uganda). He tends to use me as a thinking board. I like to take part in the discussions but this requires one to involve themselves economics reading regarding not only Uganda but the world.  I'm glad I take this challenge on as it opens my mind thus disclosing new worlds to me from economic perspective. After his talks , I yearn to be farmer or gone to a vocational school . For two hours a day , I'm an amateur economist. 
 
-Well its Monday , time to be programmer.
+Well its Monday , time to be a programmer.
