@@ -2,26 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Lynn's Chronicles</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-05-18T22:22:29+00:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://lynnug.github.io//feed.xml" />
+<link rel="alternate" type="text/html" href="http://lynnug.github.io/" />
+<updated>2014-05-20T14:24:36+00:00</updated>
+<id>http://lynnug.github.io//</id>
 <author>
   <name>Lynn Asiimwe</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://lynnug.github.io//</uri>
   <email></email>
 </author>
 
 
 <entry>
-  <title type="html"><![CDATA[Code Girls Uganda]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/code-girls/" />
-  <id>http://localhost:4000/code-girls</id>
+  <title type="html"><![CDATA[The mystery of being]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io//universe-test/" />
+  <id>http://lynnug.github.io//universe-test</id>
+  <published>2014-05-20T00:00:00+00:00</published>
+  <updated>2014-05-20T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io/</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“The mystery of being is a permanent mystery, at least given the present state of the human brain.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My workmates(all programmers) and I keep having an agrument about the possibilty of there being a robot that exactly like a human being. One that feels and has thought. I differ and believe that our being is not a piece a software that can easily be recreated. I prefer to see technology as way human beings can extend themselves.Our being is a phenomena, a mystery. A beautiful thing thats unexplainable.I shall enjoy it that while my workmates ponder on how to create it. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io//universe-test/&quot;&gt;The mystery of being&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io/&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Mvc4 Test]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io//MVC4-test/" />
+  <id>http://lynnug.github.io//MVC4-test</id>
+  <published>2014-05-20T00:00:00+00:00</published>
+  <updated>2014-05-20T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io/</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Recently I got the opportunity to use MVC4.I happened to gotten fond of it and thought I should give a small blog post about it. I won’t get into depth&lt;/p&gt;
+
+&lt;p&gt;Pros
+-MVC4 has pretty solid libraries(ones used so far) that make building software easier.&lt;/p&gt;
+
+&lt;p&gt;-Pretty solid documentation and tutorials for beginners&lt;/p&gt;
+
+&lt;p&gt;-Running MVC4 is pretty easy&lt;/p&gt;
+
+&lt;p&gt;-Easy Debugging&lt;/p&gt;
+
+&lt;p&gt;Cons
+-Strong typing which comes with C sharp. Coming from python background , this gets to me. &lt;/p&gt;
+
+&lt;p&gt;-The application takes forever to start-up when launched&lt;/p&gt;
+
+&lt;p&gt;-Seems like visual studio is the ideal environment thus your forced to use windows as your operating system&lt;/p&gt;
+
+&lt;p&gt;-Not open source. I keep seeing an icon reminding me some sort of visual studio license is about to expire and I work for start-up that uses Biz Spark resources&lt;/p&gt;
+
+&lt;p&gt;I’m still exploring MVC4 so this post will have more to it.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io//MVC4-test/&quot;&gt;Mvc4 Test&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io/&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Loving to learn]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io//love-learning/" />
+  <id>http://lynnug.github.io//love-learning</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io/</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“That is the way to learn the most, that when you are doing something with such enjoyment that you don’t notice that the time passes.” &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I love to learn and I love to learn through people.Think its the best and easiet way(got me through undergrad). Especially if your learning across fields.This weekend I’ve had to jump through multiple fields from mechincal engineering to stastics to economics. And this how:&lt;/p&gt;
+
+&lt;p&gt;My cousin is an aspiring mechanic and recently got into technical school. He sought my help to help with his theoretical work which includes electronics and engines. My electronics knowledge is okay but my engine knowledge is wanting. But on opening up a text book about engines , I was blown away by the design of an engine. My cousin and I spent the entire Saturday talking about engines , him bring his practical experience and I bring the theory. Theoretical I’m on my way to becoming a mechanic. May add I loved the electronics (conductors , semi conductors and insulators).&lt;/p&gt;
+
+&lt;p&gt;My little brother is an aspiring economist. He has a significant amount of statistics homework in particular to do with Stochastic processes. This was one of my favorite topics in networks ,so on Friday I was up reading up on Markov’s chain. Well arriving at the study session , I turned into the students. Turns out I’m great at the calculations just terrible at translating it to real world problems. My little brother schooled me Markov’s properties and what means to learn.&lt;/p&gt;
+
+&lt;p&gt;My Dad is an economist. He loves economic critical analysis(especially of Uganda). He tends to use me as a thinking board. I like to take part in the discussions but this requires one to involve themselves economics reading regarding not only Uganda but the world.  I’m glad I take this challenge on as it opens my mind thus disclosing new worlds to me from economic perspective. After his talks , I yearn to be farmer or gone to a vocational school . For two hours a day , I’m an amateur economist. &lt;/p&gt;
+
+&lt;p&gt;Well its Monday , time to be a programmer.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io//love-learning/&quot;&gt;Loving to learn&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io/&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Leaving blogger]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io//leaving-blogger/" />
+  <id>http://lynnug.github.io//leaving-blogger</id>
+  <published>2014-05-18T00:00:00+00:00</published>
+  <updated>2014-05-18T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io/</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I moved my blog from blogspot to github. II got lazy and also spend more time in my text editor (feel more comfortable writing stuff here). Also git push a thing I like to do.&lt;/p&gt;
+
+&lt;p&gt;I tried migrating my old blogs from blogger , its more difficult than I thought. I found a node.js library blogger2jekyll but it conversion isn’t liked by my current version so it needs some debugging.&lt;/p&gt;
+
+&lt;p&gt;Well to new beginings :)&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io//leaving-blogger/&quot;&gt;Leaving blogger&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io/&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Code Girls Uganda]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io//code-girls/" />
+  <id>http://lynnug.github.io//code-girls</id>
+  <published>2014-05-18T00:00:00+00:00</published>
+  <updated>2014-05-18T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io/</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I love programming. I tend to go into a meditative state(which I enjoy) when I write code where I disconnect with the world and my thoughts connect with code. I currently work for a small start-up company called accessmobile that allows to do that and at the same time create products that hope to disrupt the Ugandan market in areas of agriculture and health. I work with a great team and a great view of Kampala City.&lt;/p&gt;
@@ -58,7 +167,7 @@
 &lt;/figure&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io//code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io/&quot;&gt;Lynn's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
