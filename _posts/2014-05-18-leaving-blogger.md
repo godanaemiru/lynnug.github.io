@@ -2,7 +2,7 @@
 layout: post
 title: "Leaving blogger"
 description: "Leaving blogger"
-tags: [code, blogger, test]
+tags: [ blogger, test]
 comments: true
 ---
 
