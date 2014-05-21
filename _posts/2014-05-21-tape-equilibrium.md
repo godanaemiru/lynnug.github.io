@@ -25,7 +25,7 @@ def solution(A):
 print solution(A=[3,1,2,4,3])
 {% endhighlight %}
 
-Here's a revised solution with much naming of variables and also taking out the unnecassry iteration.
+Here's a revised solution with better naming of variables and also taking out the unnecessary iteration.This time the time complexity was O(N).
 {% highlight python linenos %}
 #Tape Equilibrium , revised solution
 def solution(A):
