@@ -1,7 +1,7 @@
 title:            Lynn Asiimwe's Chronicles
 description:      Lynn Asiimwe's Chronicles.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://lynnug.github.io/
+url:             http://localhost:4000
 disqus_shortname:
 
 # Owner/author information
@@ -13,7 +13,7 @@ owner:
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: atwooki_a
   facebook:
-  github:
+  github: lynnug
   stackoverflow:
   linkedin:
   instagram:

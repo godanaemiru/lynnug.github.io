@@ -6,7 +6,7 @@ tags: [ code, highlighting]
 comments: true
 ---
 
-[Syntax highlighting](http://en.wikipedia.org/wiki/Syntax_highlighting) 
+
 I'm back to playing to playing around with codility to help improve on the code write. So I took the Tape Equilibrum test , below is my first submission. On submission , the results were not great. I had a time complexity of O(N*N). This was due to line 8 where I kept calculating the sum of the entire array at each iteration the loop. Also my naming of variables is terrible.
 {% highlight python linenos %}
 #Tape Equilibrium , first solution
