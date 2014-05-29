@@ -14,7 +14,7 @@ I believe the methodology is good however start ups in Uganda lack the focus and
 Lack of focus in the sense that our tech start up entrepreneurs don't take time to understand their target market(customers) and what their  problems are. Most tech start ups in Uganda are competition responders and not innovators. These technology competitions are great for the Ugandan tech ecosystem however our start ups need to look beyond them. In Uganda there's numerous tech competitions where start-ups stand a chance to win funding(usually a small amount). Our tech start-ups have been geared to win these competitions and completely forget about the real competition which is the customers who going to use these products. With a result , methodologies such as lean start-up fail to work since the entrepreneur doesn't know understand the customer and therefore will not be understand how to scale their business.
 
 
-*What's your personal take on customer development and product development?*
+### What's your personal take on customer development and product development?
 
 My take on this is similar to my answer in the previous question. You need to understand your customer before building a product. You need to hear their point of view. We need to think and then engage.
 
