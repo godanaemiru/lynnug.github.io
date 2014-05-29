@@ -7,10 +7,12 @@ comments: true
 ---
 The past few months I've been exploring the technology innovation landscape in Kampala as part of my master thesis.I took time to participate and more importantly listen to people in this industry. As part of my thesis , I had an expert interview with was Michael Niyitegeka  an expert in Leadership Development, IT Strategy, Social Media Integration, Communication, and Business Process Strategic Alignment. He also a mentor of several start-ups that work at an incubation hub in Kampala called hive co-lab. I publish abit of the interview , for the rest of it , you'll have to grab a copy of my thesis which should be ready this june.
 
+
 *There's been alot of hype over the lean start-up methodology in the west and its usefulness. Is this methodology applicable with tech start-ups here in Kampala?*
 
 I believe the methodology is good however start ups in Uganda lack the focus and resources to utilize it.  
 Lack of focus in the sense that our tech start up entrepreneurs don't take time to understand their target market(customers) and what their  problems are. Most tech start ups in Uganda are competition responders and not innovators. These technology competitions are great for the Ugandan tech ecosystem however our start ups need to look beyond them. In Uganda there's numerous tech competitions where start-ups stand a chance to win funding(usually a small amount). Our tech start-ups have been geared to win these competitions and completely forget about the real competition which is the customers who going to use these products. With a result , methodologies such as lean start-up fail to work since the entrepreneur doesn't know understand the customer and therefore will not be understand how to scale their business.
+
 
 *What's your personal take on customer development and product development?*
 
