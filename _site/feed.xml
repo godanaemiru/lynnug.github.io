@@ -2,26 +2,128 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Lynn Asiimwe's Chronicles</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://lynnug.github.io/feed.xml" />
-<link rel="alternate" type="text/html" href="http://lynnug.github.io" />
-<updated>2014-05-28T10:31:16+00:00</updated>
-<id>http://lynnug.github.io/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2014-05-30T15:56:35+00:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Lynn Asiimwe</name>
-  <uri>http://lynnug.github.io/</uri>
+  <uri>http://localhost:4000/</uri>
   <email></email>
 </author>
 
 
 <entry>
-  <title type="html"><![CDATA[Create Downloadable Excel file on MVC4]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Create-Downloadable-Excel-File/" />
-  <id>http://lynnug.github.io/Create-Downloadable-Excel-File</id>
+  <title type="html"><![CDATA[Phenomenal Women]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/Phenomenal-Woman/" />
+  <id>http://localhost:4000/Phenomenal-Woman</id>
+  <published>2014-05-29T00:00:00+00:00</published>
+  <updated>2014-05-29T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Pretty women wonder where my secret lies.
+I’m not cute or built to suit a fashion model’s size
+But when I start to tell them,
+They think I’m telling lies.
+I say,
+It’s in the reach of my arms,
+The span of my hips,
+The stride of my step,
+The curl of my lips.
+I’m a woman
+Phenomenally.
+Phenomenal woman,
+That’s me.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In memory of Maya Angelou. &lt;a href=&quot;http://www.brainpickings.org/index.php/2014/04/04/maya-angelou-recites-phenomenal-woman/?utm_content=buffer532b9&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;link to full poem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also “we should all be feminists chimamanda ngozi adichie”&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/watch?v=hg3umXU_qWc&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Phenomenal-Woman/&quot;&gt;Phenomenal Women&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Innovation puzzle Uganda]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/Innovation-puzzle-in-Uganda/" />
+  <id>http://localhost:4000/Innovation-puzzle-in-Uganda</id>
+  <published>2014-05-29T00:00:00+00:00</published>
+  <updated>2014-05-29T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;The past few months I’ve been exploring the technology innovation landscape in Kampala as part of my master thesis.I took time to participate and more importantly listen to people in this industry. As part of my thesis , I had an expert interview with was Michael Niyitegeka  an expert in Leadership Development, IT Strategy, Social Media Integration, Communication, and Business Process Strategic Alignment. He also a mentor of several start-ups that work at an incubation hub in Kampala called hive co-lab. I publish abit of the interview , for the rest of it , you’ll have to grab a copy of my thesis which should be ready this june.&lt;/p&gt;
+
+&lt;h3 id=&quot;theres-been-alot-of-hype-over-the-lean-start-up-methodology-in-the-west-and-its-usefulness-is-this-methodology-applicable-with-tech-start-ups-here-in-kampala&quot;&gt;There’s been alot of hype over the lean start-up methodology in the west and its usefulness. Is this methodology applicable with tech start-ups here in Kampala?&lt;/h3&gt;
+
+&lt;p&gt;I believe the methodology is good however start ups in Uganda lack the focus and resources to utilize it.&lt;br /&gt;
+Lack of focus in the sense that our tech start up entrepreneurs don’t take time to understand their target market(customers) and what their  problems are. Most tech start ups in Uganda are competition responders and not innovators. These technology competitions are great for the Ugandan tech ecosystem however our start ups need to look beyond them. In Uganda there’s numerous tech competitions where start-ups stand a chance to win funding(usually a small amount). Our tech start-ups have been geared to win these competitions and completely forget about the real competition which is the customers who going to use these products. With a result , methodologies such as lean start-up fail to work since the entrepreneur doesn’t know understand the customer and therefore will not be understand how to scale their business.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-your-personal-take-on-customer-development-and-product-development&quot;&gt;What’s your personal take on customer development and product development?&lt;/h3&gt;
+
+&lt;p&gt;My take on this is similar to my answer in the previous question. You need to understand your customer before building a product. You need to hear their point of view. We need to think and then engage.&lt;/p&gt;
+
+&lt;p&gt;Building for the wrong customer is another problem faced by our tech start-ups. For example many sms applications have been built for subsistence farmers  and many of these project have been funded by large NGOs .  From a social perspective its great however from a business perspective it’s not. Many of these farmers are struggling to produce a sack of their yields , an sms application won’t improve that. the tech entrepreneur in this scenario is at a loss as the farmer will never afford to pay her/him for the software they built. However we have commercial farmers in Uganda , who are producing massive yields , these are the farmers who our tech entrepreneurs need to target. These are the farmers who need leverage technology to improve their business and will be able to pay for it. Besides farmers , Uganda has numerous business which could leverage technology to run their business better. Off my head there’s multiple business in downtown Kampala that are receiving tonnes of supplies and also moving produce around that isn’t being tracked. I see a technology opportunity right there.&lt;/p&gt;
+
+&lt;p&gt;Alright thats all I shall be sharing till june.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Innovation-puzzle-in-Uganda/&quot;&gt;Innovation puzzle Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Frogjmp ,Codility]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/Frogjmp/" />
+  <id>http://localhost:4000/Frogjmp</id>
   <published>2014-05-28T00:00:00+00:00</published>
   <updated>2014-05-28T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I’m back to playing to playing around with codility to help improve on the code write. So I took the  Frogjmp test , below is my first submission. On submission , the results were better. Though my solution didn’t accomodate certain cases and hence failed on half of them.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Frogjmp , first solution&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; 	&lt;span class=&quot;c&quot;&gt;#print float(Y-X)/float(D)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; 	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s a revised solution that solves all cases&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Frogjmp  , revised solution&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;solution2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;X&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Frogjmp/&quot;&gt;Frogjmp ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Create Downloadable Excel file on MVC4]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/Create-Downloadable-Excel-File/" />
+  <id>http://localhost:4000/Create-Downloadable-Excel-File</id>
+  <published>2014-05-28T00:00:00+00:00</published>
+  <updated>2014-05-28T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I had to create a downloadable excel file on the MVC4 website I was working on. Most tutorials gave partial pictures of what I had which frustrated me but adding the pieces together I was able to come up with a solution.&lt;/p&gt;
@@ -90,19 +192,19 @@
 &lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Create-Downloadable-Excel-File/&quot;&gt;Create Downloadable Excel file on MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Create-Downloadable-Excel-File/&quot;&gt;Create Downloadable Excel file on MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Tape Equilibrium ,Codility]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/tape-equilibrium/" />
-  <id>http://lynnug.github.io/tape-equilibrium</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tape-equilibrium/" />
+  <id>http://localhost:4000/tape-equilibrium</id>
   <published>2014-05-21T00:00:00+00:00</published>
   <updated>2014-05-21T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I’m back to playing to playing around with codility to help improve on the code write. So I took the Tape Equilibrum test , below is my first submission. On submission , the results were not great. I had a time complexity of O(N*N). This was due to line 8 where I kept calculating the sum of the entire array at each iteration the loop. Also my naming of variables is terrible.&lt;/p&gt;
@@ -140,19 +242,19 @@
 &lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/tape-equilibrium/&quot;&gt;Tape Equilibrium ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tape-equilibrium/&quot;&gt;Tape Equilibrium ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The mystery of being]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/universe/" />
-  <id>http://lynnug.github.io/universe</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/universe/" />
+  <id>http://localhost:4000/universe</id>
   <published>2014-05-20T00:00:00+00:00</published>
   <updated>2014-05-20T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;blockquote&gt;
@@ -162,19 +264,19 @@
 &lt;p&gt;My workmates(all programmers) and I keep having an agrument about the possibilty of there being a robot that exactly like a human being. One that feels and has thought. I differ and believe that our being is not a piece a software that can easily be recreated. I prefer to see technology as way human beings can extend themselves.Our being is a phenomena, a mystery. A beautiful thing thats unexplainable.I shall enjoy it that while my workmates ponder on how to create it. &lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/universe/&quot;&gt;The mystery of being&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/universe/&quot;&gt;The mystery of being&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[MVC4]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/MVC4/" />
-  <id>http://lynnug.github.io/MVC4</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/MVC4/" />
+  <id>http://localhost:4000/MVC4</id>
   <published>2014-05-20T00:00:00+00:00</published>
   <updated>2014-05-20T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I got the opportunity to use MVC4.I happened to gotten fond of it and thought I should give a small blog post about it. I won’t get into depth&lt;/p&gt;
@@ -199,19 +301,19 @@
 
 &lt;p&gt;I’m still exploring MVC4 so this post will have more to it.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/MVC4/&quot;&gt;MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/MVC4/&quot;&gt;MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Loving to learn]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/love-learning/" />
-  <id>http://lynnug.github.io/love-learning</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/love-learning/" />
+  <id>http://localhost:4000/love-learning</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;blockquote&gt;
@@ -228,19 +330,19 @@
 
 &lt;p&gt;Well its Monday , time to be a programmer.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/love-learning/&quot;&gt;Loving to learn&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/love-learning/&quot;&gt;Loving to learn&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Leaving blogger]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/leaving-blogger/" />
-  <id>http://lynnug.github.io/leaving-blogger</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/leaving-blogger/" />
+  <id>http://localhost:4000/leaving-blogger</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I moved my blog from blogspot to github. II got lazy and also spend more time in my text editor (feel more comfortable writing stuff here). Also git push a thing I like to do.&lt;/p&gt;
@@ -249,19 +351,19 @@
 
 &lt;p&gt;Well to new beginings :)&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/leaving-blogger/&quot;&gt;Leaving blogger&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/leaving-blogger/&quot;&gt;Leaving blogger&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Code Girls Uganda]]></title>
-  <link rel="alternate" type="text/html" href="http://lynnug.github.io/code-girls/" />
-  <id>http://lynnug.github.io/code-girls</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/code-girls/" />
+  <id>http://localhost:4000/code-girls</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://lynnug.github.io</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I love programming. I tend to go into a meditative state(which I enjoy) when I write code where I disconnect with the world and my thoughts connect with code. I currently work for a small start-up company called accessmobile that allows to do that and at the same time create products that hope to disrupt the Ugandan market in areas of agriculture and health. I work with a great team and a great view of Kampala City.&lt;/p&gt;
@@ -298,7 +400,7 @@
 &lt;/figure&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
