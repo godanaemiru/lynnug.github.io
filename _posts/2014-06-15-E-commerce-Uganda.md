@@ -26,7 +26,7 @@ When I typed online shopping Uganda , this search was among the top searches. Th
 ## Number 2 
 
 http://www.cheki.co.ug/
-These didn't from a google search but from my mother, brother and friends who happen to be looking to cars all mentioned this site to me.  This site is started by Kenyan-Australian Internet entrepreneur Carey Eaton who sadly passed away recently in truly unfortunate circumstances. He also was a true ninja who pioneered cheki in Kenya which is pretty popular there and also in Uganda. This no surprise as second hand vehicles are a hot commodity amongst the middle class in Uganda.Below is their score from alexa.
+These I didn't get from a google search but from my mother, brother and friends who happen to be looking for cars all mentioned this site to me.  This site is started by Kenyan-Australian Internet entrepreneur Carey Eaton who sadly passed away recently in truly unfortunate circumstances. He also was a true ninja who pioneered cheki in Kenya which is pretty popular there and also in Uganda. This no surprise as second hand vehicles are a hot commodity amongst the middle class in Uganda.Below is their score from alexa.
 <figure>
 	<a href="http://lynnug.github.io/images/cheki-ug.png
 "><img src="http://lynnug.github.io/images/cheki-ug.png
