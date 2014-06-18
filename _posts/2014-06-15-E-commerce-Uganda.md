@@ -49,4 +49,4 @@ These I obtained from a google search and they are pretty new to the market. Thi
 </figure>
 
 
-Above are the ninja who venturing for a very scary landscape.I believe our pioneers in e-commerce will not come from obvious places and probably not find them pitching ideas at start-up competitions , but out there working hard to win over Ugandan customers.
+Above are the ninjas who venturing onto a very scary landscape.I believe our pioneers in e-commerce will not come from obvious places and probably not find them pitching ideas at start-up competitions , but out there working hard to win over Ugandan customers.
