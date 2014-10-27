@@ -5,7 +5,7 @@ description: "Myth of the genius programmer"
 tags: [ code ]
 comments: true
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0SARbwvhupQ" frameborder="0" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0SARbwvhupQ" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
 #The myth
 Ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don't exsist(or rarely) People usually work in cave in order to hide their flaws.
