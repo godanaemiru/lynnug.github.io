@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introduction to TDD python
-description: "Introduction to TDD python"
+title: Simple Introduction to TDD python
+description: "Simple Introduction to TDD python"
 tags: [ code]
 comments: true
 ---
@@ -25,7 +25,7 @@ The main methods that we make use of in unit testing for Python are:
 
 ##Next pip install nose which is a python unit testing package
 
-##Next code
+##Next Example
 
 {% highlight python linenos %}
 #calculator.py
@@ -53,10 +53,93 @@ if __name__ == '__main__':
 
 Writing tests in python is pretty simple
 In testCalculator.py,
--import the unittest module from python library
--we add a class to hold all out test cases
--the test method needs to to begin with "test_" which can be picked up nosetest runner for execution
+
+* import the unittest module from python library
+
+* we add a class to hold all out test cases
+
+* the test method needs to to begin with "test_" which can be picked up nosetest runner for execution
+
+When we run our tests we get a failed test at a particular line number.
+<figure>
+	<a href="http://lynnug.github.io/images/failed-test-1.png
+"><img src="http://lynnug.github.io/images/failed-test-1.png
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/failed-test-1.png
+" title="Failed test">Failed test</a>.</figcaption>
+</figure>
+
+lets edit our calculator.py and run our tests once more
+
+{% highlight python linenos %}
+#calculator.py
+class Calculator(object):
+ 
+    def add(self, x, y):
+        return x+y
+{% endhighlight %}
+
+this is the result  of our test
+<figure>
+	<a href="http://lynnug.github.io/images/passed-test-1.png
+"><img src="http://lynnug.github.io/images/passed-test-1.png
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/passed-test-1.png
+" title="Failed test">Passed test</a>.</figcaption>
+</figure>
+
+Woop!! Woop!! , our test passed. However what if someone puts in strings instead of intergers. So we've gotten comfortable testing what the case we are currently interested in. Let's stir it up.
+
+{% highlight python linenos %}
+import unittest
+from calculator import Calculator
+class TddInPythonExample(unittest.TestCase):
+   def setUp(self):
+        self.calc = Calculator()
+        
+   def test_calculator_add_method_returns_correct_result(self):
+    	self.result = self.calc.add(2,2)
+    	self.assertEqual(4, self.result)
+   def test_calculator_returns_error_message_if_both_args_not_numbers(self):
+   		self.assertRaises(ValueError, self.calc.add,'two','three')
 
 
-#to be continued
+if __name__ == '__main__':
+    unittest.main()
 
+{% endhighlight %}
+
+From the above code we have added a setUp function which aids in setting up our test object that will subsequently be used in our other tests. We have also added a test that checks for ValueError if strings are passed. Now lets run our tests.
+
+<figure>
+	<a href="http://lynnug.github.io/images/failed-test-2.png
+"><img src="http://lynnug.github.io/images/failed-test-2.png
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/failed-test-2.png
+" title="Failed test">Failed test</a>.</figcaption>
+</figure>
+
+Our one test fails because we fail to raise a ValueError, lets edit our calculator code to raise one.
+{% highlight python linenos %}
+class Calculator(object):
+ 
+    def add(self, x, y):
+        number_types = (int, long, float, complex)
+ 
+        if isinstance(x, number_types) and isinstance(y, number_types):
+            return x+y
+        else:
+            raise ValueError
+{% endhighlight %}
+
+From the above code you can see we do a check to see if x and y are numbers using isinstance. Now lets run our code. Below is our outcome.
+
+<figure>
+	<a href="http://lynnug.github.io/images/passed-test-2.png
+"><img src="http://lynnug.github.io/images/passed-test-2.png
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/passed-test-2.png
+" title="Failed test">Passed test</a>.</figcaption>
+</figure>
+
+That's simple example of testing using nose in python. Go forth and write more tests :)

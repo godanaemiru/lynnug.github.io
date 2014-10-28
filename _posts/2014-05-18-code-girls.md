@@ -36,6 +36,6 @@ Well this didn't kill my zeal , I went to every class with excitement to teach a
 "><img src="http://lynnug.github.io/images/WP_20140312_002.jpg
 "></a>
 	<figcaption><a href="http://lynnug.github.io/images/WP_20140312_002.jpg
-" title="First Python Clas">Microsoft Apps Training</a>.</figcaption>
+" title="First Python Class">Microsoft Apps Training</a>.</figcaption>
 </figure>
 

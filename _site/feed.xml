@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lynnug.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lynnug.github.io" />
-<updated>2014-10-28T07:30:08+00:00</updated>
+<updated>2014-10-28T09:12:39+00:00</updated>
 <id>http://lynnug.github.io/</id>
 <author>
   <name>Lynn Asiimwe</name>
@@ -25,6 +25,9 @@
     <email></email>
   </author>
   <content type="html">&lt;iframe src=&quot;https://www.youtube.com/embed/0SARbwvhupQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+&lt;h1 id=&quot;women-in-passion-programme&quot;&gt;Women in passion programme&lt;/h1&gt;
+&lt;p&gt;Being part of the team running the  &lt;a href=&quot;http://www.wopa.outbox.co.ug/about-wopa-program&quot;&gt;Women in Passion Programme&lt;/a&gt; at a local incubation hub Outbox has taught many things , biggest one is the power of a team where each member plays their role for the greater good of our ultimate goal. This team on a very tight budget has been able to achieve a quite alot and has been very honest with its achievements(also threatening to call it quits if we didn’t meet our goal). Enough about that , this brought to thinking about Software development , teams and solo programmers.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-myth&quot;&gt;The myth&lt;/h1&gt;
 &lt;p&gt;The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don’t exist(or rarely).Usually work in cave in order to hide their flaws.&lt;/p&gt;
@@ -84,7 +87,9 @@
     <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
-  <content type="html">&lt;p&gt;I’m currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there’s different possible routes(which takes us to the topic of &lt;a href=&quot;http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated&quot;&gt;test coverage&lt;/a&gt;) &lt;/p&gt;
+  <content type="html">&lt;p&gt;I’m currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there’s different possible routes(which takes us to the topic of &lt;a href=&quot;http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated&quot;&gt;test coverage&lt;/a&gt;) . I have been victim to this several times after even after attending two talks on testing at a software thoughtworks.&lt;/p&gt;
+
+&lt;p&gt;I’ve learnt things tend to stick to my brain when I teach it to somebody , hopefully this works.&lt;/p&gt;
 
 &lt;h2 id=&quot;for-starters-syntax-for-unit-testing&quot;&gt;For starters syntax for Unit Testing&lt;/h2&gt;
 
@@ -132,6 +137,13 @@ In testCalculator.py,
 -import the unittest module from python library
 -we add a class to hold all out test cases
 -the test method needs to to begin with “test_” which can be picked up nosetest runner for execution&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/failed-test-1.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/failed-test-1.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/failed-test-1.png
+&quot; title=&quot;Failed test&quot;&gt;Failed test&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h1 id=&quot;to-be-continued&quot;&gt;to be continued&lt;/h1&gt;
 
@@ -603,28 +615,28 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;h3 id=&quot;photos-from-the-first-python-class&quot;&gt;Photos from the first python class&lt;/h3&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
-&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
+	&lt;a href=&quot;http://lynnug.github.io/images/WP_20140314_006.jpg
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/WP_20140314_006.jpg
 &quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_006.jpg
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/WP_20140314_006.jpg
 &quot; title=&quot;First Python Clas&quot;&gt;First Python Class&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
-	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
-&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
+	&lt;a href=&quot;http://lynnug.github.io/images/images/WP_20140314_007.jpg
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/WP_20140314_007.jpg
 &quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140314_007.jpg
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/WP_20140314_007.jpg
 &quot; title=&quot;First Python Clas&quot;&gt;First Python Class&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;However the next week not so much, and over the next weeks we had a negative linear relationship .The feedback I got was the class was too difficult(feedback given when I arrived to topic of “for loops”). Besides that I offered weekly assignment and only a few of the ladies attempted while others didn’t attempt but were keen to collect notes on the “correct answers”. Any programmer out there who writes code for a living knows coding is about problem solving with active action not keeping note of “correct answers” which is passive. I tried to convey that in during my classes and even brought another female coder (Emily from Thoughtworks) to talk the ladies about taking action.&lt;/p&gt;
 
 &lt;p&gt;Well this didn’t kill my zeal , I went to every class with excitement to teach and also learn from my students. I also carried along candy to every class to encourage my students.I must say I’m proud of the few who remained. Below are three of my students who pulled through a microsoft developer boot camp :) . I also have a health worker who attended my class and now is on her way to building her own health web applications(she’s just gotten past the django intro page), an ecnomist who thinks python would be great for data crunching and a web developer who would like to explore outside of the borders of drupal.&lt;/p&gt;
 &lt;figure&gt;
-	&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
-&quot;&gt;&lt;img src=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
+	&lt;a href=&quot;http://lynnug.github.io/images/WP_20140312_002.jpg
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/WP_20140312_002.jpg
 &quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;https://s3-us-west-2.amazonaws.com/witupython/images/WP_20140312_002.jpg
-&quot; title=&quot;First Python Clas&quot;&gt;Microsoft Apps Training&lt;/a&gt;.&lt;/figcaption&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/WP_20140312_002.jpg
+&quot; title=&quot;First Python Class&quot;&gt;Microsoft Apps Training&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 
