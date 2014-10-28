@@ -12,13 +12,13 @@ comments: true
 Being part of the team running the  [Women in Passion Programme](http://www.wopa.outbox.co.ug/about-wopa-program) at a local incubation hub Outbox has taught many things , biggest one is the power of a team where each member plays their role for the greater good of our ultimate goal. This team on a very tight budget has been able to achieve a quite alot and has been very honest with its achievements(also threatening to call it quits if we didn't meet our goal). Enough about that , this brought to thinking about Software development , teams and solo programmers.
 
 #The myth
-The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don't exist(or rarely).Usually work in cave in order to hide their flaws.
+The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don't exist(or rarely).Usually work in cave in order to hide their flaws. In the video above [Brian Fitzpatrick](https://twitter.com/therealfitz) and [Ben Collins-Sussman](https://twitter.com/sussman) (googlers ) talk about this myth in depth , why we should care about and later guidelines to avoid in order to be a better programmer.
 
 #Why should you care about this myth?
 This usually results in no progress. Code quality is low and reduces the bus factor. Bus factor is the number of people on a software project that need to be hit by a bus that results in an insane amount of hell.
 
 #New Guidelines
-Instead of working solo , Brian Fitzpatrick and Ben Collins-Sussman (googlers ) believe to improve code quality and increase bus factor software should be built as team and with as open communication as possible.
+Instead of working solo , [Brian Fitzpatrick](https://twitter.com/therealfitz) and [Ben Collins-Sussman](https://twitter.com/sussman) (googlers ) believe to improve code quality and increase bus factor software should be built as team and with as open communication as possible.
 
 * Drop the Ego. Working for the greater good of your software instead of your small clever piece of code that will be sloted into the code base. Teams build great products , not individuals. Using world cup as an example.
 
@@ -32,7 +32,7 @@ Instead of working solo , Brian Fitzpatrick and Ben Collins-Sussman (googlers ) 
 
 #Overcoming the myth
 
-Currently I'm a very small fish . Inorder to grow  I'm taking the following steps:
+Currently I'm a very small fish . Inorder to grow, I'm taking the following steps:
 
 * Starting this blog to put myself out there.
 
