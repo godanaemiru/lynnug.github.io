@@ -7,21 +7,23 @@ comments: true
 ---
 I'm currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there's different possible routes(which takes us to the topic of [test coverage](http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated)) 
 
-For starters syntax for Unit Testing
+##For starters syntax for Unit Testing
 
 The main methods that we make use of in unit testing for Python are:
 
-assert - base assert allowing you to write your own assertions
-assertEqual(a, b) - check a and b are equal
-assertNotEqual(a, b) - check a and b are not equal
-assertIn(a, b) - check that a is in the item b
-assertNotIn(a, b) - check that a is not in the item b
-assertFalse(a) - check that the value of a is False
-assertTrue(a) - check the value of a is True
-assertIsInstance(a, TYPE) - check that a is of type "TYPE"
-assertRaises(ERROR, a, args) - check that when a is called with args that it raises ERROR
+* assert - base assert allowing you to write your own assertions
+* assertEqual(a, b) - check a and b are equal
+* assertNotEqual(a, b) - check a and b are not equal
+* assertIn(a, b) - check that a is in the item b
+* assertNotIn(a, b) - check that a is not in the item b
+* assertFalse(a) - check that the value of a is False
+* assertTrue(a) - check the value of a is True
+* assertIsInstance(a, TYPE) - check that a is of type "TYPE"
+* assertRaises(ERROR, a, args) - check that when a is called with args that it raises ERROR
 
-Next pip install nose which is a python unit testing package
+##Next pip install nose which is a python unit testing package
+
+##Next code
 
 {% highlight python linenos %}
 #calculator.py
