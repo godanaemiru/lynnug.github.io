@@ -23,9 +23,11 @@ The main methods that we make use of in unit testing for Python are:
 * assertIsInstance(a, TYPE) - check that a is of type "TYPE"
 * assertRaises(ERROR, a, args) - check that when a is called with args that it raises ERROR
 
-##Next pip install nose which is a python unit testing package
+##Next pip install nose 
 
+nose is python unit testing package
 ##Next Example
+
 
 {% highlight python linenos %}
 #calculator.py
@@ -35,9 +37,9 @@ class Calculator(object):
         pass
 {% endhighlight %}
 
-Here's a revised solution that solves all cases
+
 {% highlight python linenos %}
-#testCalculator.py
+#testcalc.py
 import unittest
 from calculator import Calculator
  
@@ -52,7 +54,8 @@ if __name__ == '__main__':
 {% endhighlight %}
 
 Writing tests in python is pretty simple
-In testCalculator.py,
+Our code to be tested is in calculator.py and our tests in testcalc.py.
+In testcalc.py,
 
 * import the unittest module from python library
 
