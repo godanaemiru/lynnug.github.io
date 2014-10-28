@@ -24,4 +24,4 @@ In memory of Maya Angelou. [link to full poem](http://www.brainpickings.org/inde
 
 Also "we should all be feminists chimamanda ngozi adichie"
 
-<iframe width="560" height="315" src="http://www.youtube.com/watch?v=hg3umXU_qWc" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/hg3umXU_qWc" frameborder="0"> </iframe>
