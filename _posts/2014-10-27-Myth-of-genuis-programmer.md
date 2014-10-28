@@ -8,7 +8,7 @@ comments: true
 
 <iframe src="https://www.youtube.com/embed/0SARbwvhupQ" frameborder="0" > </iframe>
 
-
+#Women in passion programme
 Being part of the team running the  [Women in Passion Programme](http://www.wopa.outbox.co.ug/about-wopa-program) at a local incubation hub Outbox has taught many things , biggest one is the power of a team where each member plays their role for the greater good of our ultimate goal. This team on a very tight budget has been able to achieve a quite alot and has been very honest with its achievements(also threatening to call it quits if we didn't meet our goal). Enough about that , this brought to thinking about Software development , teams and solo programmers.
 
 #The myth
