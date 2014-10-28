@@ -5,7 +5,9 @@ description: "Introduction to TDD python"
 tags: [ code]
 comments: true
 ---
-I'm currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there's different possible routes(which takes us to the topic of [test coverage](http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated)) 
+I'm currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there's different possible routes(which takes us to the topic of [test coverage](http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated)) . I have been victim to this several times after even after attending two talks on testing at a software thoughtworks.
+
+I've learnt things tend to stick to my brain when I teach it to somebody , hopefully this works.
 
 ##For starters syntax for Unit Testing
 

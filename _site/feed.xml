@@ -2,26 +2,254 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Lynn Asiimwe's Chronicles</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-05-30T15:56:35+00:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://lynnug.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://lynnug.github.io" />
+<updated>2014-10-28T07:30:08+00:00</updated>
+<id>http://lynnug.github.io/</id>
 <author>
   <name>Lynn Asiimwe</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://lynnug.github.io/</uri>
   <email></email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[Myth of the genius programmer]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Myth-of-genuis-programmer/" />
+  <id>http://lynnug.github.io/Myth-of-genuis-programmer</id>
+  <published>2014-10-27T00:00:00+00:00</published>
+  <updated>2014-10-27T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;iframe src=&quot;https://www.youtube.com/embed/0SARbwvhupQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+&lt;h1 id=&quot;the-myth&quot;&gt;The myth&lt;/h1&gt;
+&lt;p&gt;The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don’t exist(or rarely).Usually work in cave in order to hide their flaws.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-should-you-care-about-this-myth&quot;&gt;Why should you care about this myth?&lt;/h1&gt;
+&lt;p&gt;This usually results in no progress. Code quality is low and reduces the bus factor. Bus factor is the number of people on a software project that need to be hit by a bus that results in an insane amount of hell.&lt;/p&gt;
+
+&lt;h1 id=&quot;new-guidelines&quot;&gt;New Guidelines&lt;/h1&gt;
+&lt;p&gt;Instead of working solo , Brian Fitzpatrick and Ben Collins-Sussman (googlers ) believe to improve code quality and increase bus factor software should be built as team and with as open communication as possible.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Drop the Ego. Working for the greater good of your software instead of your small clever piece of code that will be sloted into the code base. Teams build great products , not individuals. Using world cup as an example.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Criticism is not evil. Interacting with people is very important. Code reviews are great way of getting feedback and increases the bus factor for your team. I’m currently moving away from using function based views in django to class based views and this after getting feedback from two colleagues.  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Embrace failure except when you fail several times on the samething(hmmm on this one). Failing on something new means your learning something new. Also fail fast and practice more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be small fish in the pond. Big fish in the pond feel safe and don’t get better but small fish have the chance to grow. Everyday I wake up hoping i’m a small fish (hoping not to get eaten)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Be vulnerable. Admit your mistakes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;overcoming-the-myth&quot;&gt;Overcoming the myth&lt;/h1&gt;
+
+&lt;p&gt;Currently I’m a very small fish . Inorder to grow  I’m taking the following steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Starting this blog to put myself out there.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Contributing to open source projects. The current open source projects I’m exploring are &lt;a href=&quot;https://github.com/praekelt/vumi&quot;&gt;Vumi&lt;/a&gt; and &lt;a href=&quot;https://github.com/openmrs/openmrs-core&quot;&gt;OpenMRS&lt;/a&gt; .These tools will aid in helping become a better programmer but also come up with solutions that can be used at the problems we are solving at &lt;a href=&quot;http://accessmobileinc.com/&quot;&gt;AccessMobile&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*In &lt;a href=&quot;http://accessmobileinc.com/about/team/&quot;&gt;AccessMobile team&lt;/a&gt; , I strongly push for code reviews!!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Myth-of-genuis-programmer/&quot;&gt;Myth of the genius programmer&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on October 27, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Introduction to TDD python]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Intro-to-TDD-python/" />
+  <id>http://lynnug.github.io/Intro-to-TDD-python</id>
+  <published>2014-10-27T00:00:00+00:00</published>
+  <updated>2014-10-27T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I’m currently running our second cohort for our Women in Passion programme and I would like to introduce TDD to my students in a painless way. I believe TDD allows developers to think through their problem before writing the actual solution. In this way, a developer will be forced to think of the design of her solution and the different possible routes. I tend to fall in the trap alot of writing no tests and coming up with a solution that solves the problem in one way and yet there’s different possible routes(which takes us to the topic of &lt;a href=&quot;http://www.thoughtworks.com/insights/blog/are-test-coverage-metrics-overrated&quot;&gt;test coverage&lt;/a&gt;) &lt;/p&gt;
+
+&lt;h2 id=&quot;for-starters-syntax-for-unit-testing&quot;&gt;For starters syntax for Unit Testing&lt;/h2&gt;
+
+&lt;p&gt;The main methods that we make use of in unit testing for Python are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;assert - base assert allowing you to write your own assertions&lt;/li&gt;
+  &lt;li&gt;assertEqual(a, b) - check a and b are equal&lt;/li&gt;
+  &lt;li&gt;assertNotEqual(a, b) - check a and b are not equal&lt;/li&gt;
+  &lt;li&gt;assertIn(a, b) - check that a is in the item b&lt;/li&gt;
+  &lt;li&gt;assertNotIn(a, b) - check that a is not in the item b&lt;/li&gt;
+  &lt;li&gt;assertFalse(a) - check that the value of a is False&lt;/li&gt;
+  &lt;li&gt;assertTrue(a) - check the value of a is True&lt;/li&gt;
+  &lt;li&gt;assertIsInstance(a, TYPE) - check that a is of type “TYPE”&lt;/li&gt;
+  &lt;li&gt;assertRaises(ERROR, a, args) - check that when a is called with args that it raises ERROR&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;next-pip-install-nose-which-is-a-python-unit-testing-package&quot;&gt;Next pip install nose which is a python unit testing package&lt;/h2&gt;
+
+&lt;h2 id=&quot;next-code&quot;&gt;Next code&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#calculator.py&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s a revised solution that solves all cases&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#testCalculator.py&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;unittest&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;calculator&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Calculator&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TddInPythonExample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unittest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TestCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_calculator_add_method_returns_correct_result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;calc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;calc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;         &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;assertEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;unittest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Writing tests in python is pretty simple
+In testCalculator.py,
+-import the unittest module from python library
+-we add a class to hold all out test cases
+-the test method needs to to begin with “test_” which can be picked up nosetest runner for execution&lt;/p&gt;
+
+&lt;h1 id=&quot;to-be-continued&quot;&gt;to be continued&lt;/h1&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Intro-to-TDD-python/&quot;&gt;Introduction to TDD python&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on October 27, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[WOPA Uganda first week]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/WOPA-Uganda-first-week/" />
+  <id>http://lynnug.github.io/WOPA-Uganda-first-week</id>
+  <published>2014-06-15T00:00:00+00:00</published>
+  <updated>2014-06-15T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;This week marked the start of WOPA Uganda which is the Women in Passion Programme that aims to increase the number of women participants on the general technology scene in Uganda. I’m part of the programme as a technical facilitator. I’ve run quite a number of coding camps for girls however this has got to be my favourite as the process of training is holistic. Holistic for both the facilitators and the students.  Holistic in the sense that it focuses on the people and not the content.&lt;/p&gt;
+
+&lt;p&gt;For the  first week we had something called life maps which basically had all participants (both facilitators and students) map out their lives in terms of people , career , education, challenges , affirmations and aspirations.  Life maps forced everybody out of their comfort zones but also at the same time inspired each one of us. Life maps also made each one of the participants feel like the programme was to help them grow as developers/ entrepreneurs not just throw chunks of knowledge at the them. Because of this particpation from everyone has been pretty natural , everyone arrives for the sessions well before actual time and always tries to share.&lt;/p&gt;
+
+&lt;p&gt;Well  I’m looking forward to the rest of the programme which runs over next three months.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/WOPA-Uganda-first-week/&quot;&gt;WOPA Uganda first week&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on June 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[E-commerce possibilities in Uganda]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/E-commerce-Uganda/" />
+  <id>http://lynnug.github.io/E-commerce-Uganda</id>
+  <published>2014-06-15T00:00:00+00:00</published>
+  <updated>2014-06-15T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Electronic commerce, commonly known as E-commerce or ecommerce, is trading in products or services conducted via computer networks such as the Internet. This is the definition I got off Wikipedia. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After reading “The Everything Store: Jeff Bezos and the Age of Amazon” , I’ve become a little more fascinated (I already was)by the internet ,its potential especially in regard to Uganda/Africa and how its only African ninjas (somebody who sets out to build the future despite the obstacles and not just predict it) are going to get us there. Bezo is truly a ninja ,he started selling books online from his home which grew into the amazon the everything store then into amazon webs services and then the kindle. He was such a ninja that his competitors thought he was crazy and couldn’t keep up with him. Bezo made it his sole mission to understand and serve his customers which is why he’s pretty successful. &lt;/p&gt;
+
+&lt;p&gt;Which brings me back to the Ugandan E-commerce landscape , I’ve talked a number of entrepreneurs /developers and they always talking the thousands of constraints to setting up an E-commerce sites in Uganda  .  Well there’s ninjas out there who are attempting to jump those constraints and might actually be successful at this. I know Uganda’s middle class is small however one’s thing is for sure they love to consume (which sadly doesn’t reflect the state of our economy). 20 years from now that middle class would probably have increased in size and those ninjas will surely be there to serve them.I recently discovered www.alexa.com which is a website that ranks other website globally and locally according to country. This allowed to locate potential ninjas who are taking a shot at e-commerce in Uganda.&lt;/p&gt;
+
+&lt;h2 id=&quot;number--1&quot;&gt;Number  1&lt;/h2&gt;
+
+&lt;p&gt;http://www.eyetrade.ug/
+When I typed online shopping Uganda , this search was among the top searches. This is owned by Ugandans.First of all their user interface is very basic and gave me the impression that their aim is to serve the customer and not give a fancy looking website. The guys behind this e-commerce might not be millionaires(according to US dollars) but I’m pretty sure they are able to pay their bills and also have Ugandans attention.  Below is their alexa.com score.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/eye-trade.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/eye-trade.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/eye-trade.png
+&quot; title=&quot;Eye-trader alexa.com score&quot;&gt;Eyetrader alexa.com score&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;number-2&quot;&gt;Number 2&lt;/h2&gt;
+
+&lt;p&gt;http://www.cheki.co.ug/
+These I didn’t get from a google search but from my mother, brother and friends who happen to be looking for cars all mentioned this site to me.  This site is started by Kenyan-Australian Internet entrepreneur Carey Eaton who sadly passed away recently in truly unfortunate circumstances. He also was a true ninja who pioneered cheki in Kenya which is pretty popular there and also in Uganda. This no surprise as second hand vehicles are a hot commodity amongst the middle class in Uganda.Below is their score from alexa.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/cheki-ug.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/cheki-ug.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/cheki-ug.png
+&quot; title=&quot;Cheki alexa.com score&quot;&gt;Cheki alexa.com score&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;number-3&quot;&gt;Number 3&lt;/h2&gt;
+
+&lt;p&gt;http://www.kaymu.co.ug/ 
+These I obtained from a google search and they are pretty new to the market. This site happens to be backed by a European company(Rocket internet) which happens to have millions of dollars , none the less they have Ugandans attention according to alexa.com. The first thing that caught my eye on this site is the price tags, products were going for as low as 3000 Ugandan shillings which created the impulse in me to actually shop there. Below is their alexa.com score &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/kaymu-ug.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/kaymu-ug.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/kaymu-ug.png
+&quot; title=&quot;kaymu alexa.com score&quot;&gt;kaymu alexa.com score&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Above are the ninjas who venturing onto a very scary landscape.I believe our pioneers in e-commerce will not come from obvious places and probably not find them pitching ideas at start-up competitions , but out there working hard to win over Ugandan customers.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/E-commerce-Uganda/&quot;&gt;E-commerce possibilities in Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on June 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Adding axes titles to morris js]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Adding-axes-to-morris-js/" />
+  <id>http://lynnug.github.io/Adding-axes-to-morris-js</id>
+  <published>2014-05-30T00:00:00+00:00</published>
+  <updated>2014-05-30T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I happen to be working on a data visualization project where I used morris.js as my charting library. I liked it mostly for its apperance. After building several graphs using it , I realized there’s no axes titles. I performed a small hack on the library. Still needs a bit of work. Axes titles are added to bar and line charts.
+&lt;a href=&quot;https://github.com/lynnUg/morris.js&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Adding-axes-to-morris-js/&quot;&gt;Adding axes titles to morris js&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 30, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Phenomenal Women]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/Phenomenal-Woman/" />
-  <id>http://localhost:4000/Phenomenal-Woman</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Phenomenal-Woman/" />
+  <id>http://lynnug.github.io/Phenomenal-Woman</id>
   <published>2014-05-29T00:00:00+00:00</published>
   <updated>2014-05-29T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;blockquote&gt;
@@ -44,21 +272,21 @@ That’s me.&lt;/p&gt;
 
 &lt;p&gt;Also “we should all be feminists chimamanda ngozi adichie”&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/watch?v=hg3umXU_qWc&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/hg3umXU_qWc&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Phenomenal-Woman/&quot;&gt;Phenomenal Women&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Phenomenal-Woman/&quot;&gt;Phenomenal Women&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Innovation puzzle Uganda]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/Innovation-puzzle-in-Uganda/" />
-  <id>http://localhost:4000/Innovation-puzzle-in-Uganda</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Innovation-puzzle-in-Uganda/" />
+  <id>http://lynnug.github.io/Innovation-puzzle-in-Uganda</id>
   <published>2014-05-29T00:00:00+00:00</published>
   <updated>2014-05-29T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;The past few months I’ve been exploring the technology innovation landscape in Kampala as part of my master thesis.I took time to participate and more importantly listen to people in this industry. As part of my thesis , I had an expert interview with was Michael Niyitegeka  an expert in Leadership Development, IT Strategy, Social Media Integration, Communication, and Business Process Strategic Alignment. He also a mentor of several start-ups that work at an incubation hub in Kampala called hive co-lab. I publish abit of the interview , for the rest of it , you’ll have to grab a copy of my thesis which should be ready this june.&lt;/p&gt;
@@ -76,19 +304,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 
 &lt;p&gt;Alright thats all I shall be sharing till june.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Innovation-puzzle-in-Uganda/&quot;&gt;Innovation puzzle Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Innovation-puzzle-in-Uganda/&quot;&gt;Innovation puzzle Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Frogjmp ,Codility]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/Frogjmp/" />
-  <id>http://localhost:4000/Frogjmp</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Frogjmp/" />
+  <id>http://lynnug.github.io/Frogjmp</id>
   <published>2014-05-28T00:00:00+00:00</published>
   <updated>2014-05-28T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I’m back to playing to playing around with codility to help improve on the code write. So I took the  Frogjmp test , below is my first submission. On submission , the results were better. Though my solution didn’t accomodate certain cases and hence failed on half of them.&lt;/p&gt;
@@ -111,19 +339,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Frogjmp/&quot;&gt;Frogjmp ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Frogjmp/&quot;&gt;Frogjmp ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Create Downloadable Excel file on MVC4]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/Create-Downloadable-Excel-File/" />
-  <id>http://localhost:4000/Create-Downloadable-Excel-File</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Create-Downloadable-Excel-File/" />
+  <id>http://lynnug.github.io/Create-Downloadable-Excel-File</id>
   <published>2014-05-28T00:00:00+00:00</published>
   <updated>2014-05-28T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I had to create a downloadable excel file on the MVC4 website I was working on. Most tutorials gave partial pictures of what I had which frustrated me but adding the pieces together I was able to come up with a solution.&lt;/p&gt;
@@ -192,19 +420,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;             &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/Create-Downloadable-Excel-File/&quot;&gt;Create Downloadable Excel file on MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Create-Downloadable-Excel-File/&quot;&gt;Create Downloadable Excel file on MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 28, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Tape Equilibrium ,Codility]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/tape-equilibrium/" />
-  <id>http://localhost:4000/tape-equilibrium</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/tape-equilibrium/" />
+  <id>http://lynnug.github.io/tape-equilibrium</id>
   <published>2014-05-21T00:00:00+00:00</published>
   <updated>2014-05-21T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I’m back to playing to playing around with codility to help improve on the code write. So I took the Tape Equilibrum test , below is my first submission. On submission , the results were not great. I had a time complexity of O(N*N). This was due to line 8 where I kept calculating the sum of the entire array at each iteration the loop. Also my naming of variables is terrible.&lt;/p&gt;
@@ -242,19 +470,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tape-equilibrium/&quot;&gt;Tape Equilibrium ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/tape-equilibrium/&quot;&gt;Tape Equilibrium ,Codility&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 21, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The mystery of being]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/universe/" />
-  <id>http://localhost:4000/universe</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/universe/" />
+  <id>http://lynnug.github.io/universe</id>
   <published>2014-05-20T00:00:00+00:00</published>
   <updated>2014-05-20T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;blockquote&gt;
@@ -264,19 +492,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;p&gt;My workmates(all programmers) and I keep having an agrument about the possibilty of there being a robot that exactly like a human being. One that feels and has thought. I differ and believe that our being is not a piece a software that can easily be recreated. I prefer to see technology as way human beings can extend themselves.Our being is a phenomena, a mystery. A beautiful thing thats unexplainable.I shall enjoy it that while my workmates ponder on how to create it. &lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/universe/&quot;&gt;The mystery of being&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/universe/&quot;&gt;The mystery of being&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[MVC4]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/MVC4/" />
-  <id>http://localhost:4000/MVC4</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/MVC4/" />
+  <id>http://lynnug.github.io/MVC4</id>
   <published>2014-05-20T00:00:00+00:00</published>
   <updated>2014-05-20T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I got the opportunity to use MVC4.I happened to gotten fond of it and thought I should give a small blog post about it. I won’t get into depth&lt;/p&gt;
@@ -301,19 +529,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 
 &lt;p&gt;I’m still exploring MVC4 so this post will have more to it.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/MVC4/&quot;&gt;MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/MVC4/&quot;&gt;MVC4&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Loving to learn]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/love-learning/" />
-  <id>http://localhost:4000/love-learning</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/love-learning/" />
+  <id>http://lynnug.github.io/love-learning</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;blockquote&gt;
@@ -330,19 +558,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 
 &lt;p&gt;Well its Monday , time to be a programmer.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/love-learning/&quot;&gt;Loving to learn&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/love-learning/&quot;&gt;Loving to learn&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Leaving blogger]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/leaving-blogger/" />
-  <id>http://localhost:4000/leaving-blogger</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/leaving-blogger/" />
+  <id>http://lynnug.github.io/leaving-blogger</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I moved my blog from blogspot to github. II got lazy and also spend more time in my text editor (feel more comfortable writing stuff here). Also git push a thing I like to do.&lt;/p&gt;
@@ -351,19 +579,19 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 
 &lt;p&gt;Well to new beginings :)&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/leaving-blogger/&quot;&gt;Leaving blogger&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/leaving-blogger/&quot;&gt;Leaving blogger&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Code Girls Uganda]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/code-girls/" />
-  <id>http://localhost:4000/code-girls</id>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/code-girls/" />
+  <id>http://lynnug.github.io/code-girls</id>
   <published>2014-05-18T00:00:00+00:00</published>
   <updated>2014-05-18T00:00:00+00:00</updated>
   <author>
     <name>Lynn Asiimwe</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://lynnug.github.io</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;I love programming. I tend to go into a meditative state(which I enjoy) when I write code where I disconnect with the world and my thoughts connect with code. I currently work for a small start-up company called accessmobile that allows to do that and at the same time create products that hope to disrupt the Ugandan market in areas of agriculture and health. I work with a great team and a great view of Kampala City.&lt;/p&gt;
@@ -400,7 +628,7 @@ Lack of focus in the sense that our tech start up entrepreneurs don’t take tim
 &lt;/figure&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/code-girls/&quot;&gt;Code Girls Uganda&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
