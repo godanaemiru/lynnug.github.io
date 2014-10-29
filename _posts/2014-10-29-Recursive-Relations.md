@@ -33,16 +33,16 @@ In the algorithm above we have g(n)s are n-2 and n-1 , a is 2 because we have tw
 
 On our second recursive call we get:
 
-                        T(n)=2*2T(n-2)+2
+                        T(n)=2^2T(n-2)+2
 
 On our second recursive ,we have now have 4 recursive calls produced from our two previous recursive calls.
 We can see two equations and from our two equations we can come up with similarlities that gives us this :
 
-                         T(n)=2^2T(n-2)+2
+                         T(n)=2^k T(n-k)+k
 
 Going back to our laws , our base case is always O(1) resulting in T(1)=1 which means n-k=1 or k=n-1. Which means we have :
 
-                             T(n)=2^k T(n-k)+k
+                         T(n)=  2^(n-1)+n-1~ 2^n
 
 
 We have proved that this algorithm is exponential in a few steps. Go ahead and determine the runtime of other equations!!
