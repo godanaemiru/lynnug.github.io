@@ -30,6 +30,7 @@ Writing code is very similar to writing an essay. When your writing an essay no 
 
 #Repeation sucks
 Oh my word I can't stress this more!!! Quote from the [pragmatic programmer](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+
 > Every piece of knowledge must have a single ,unambiguous authoritiative representation within a system.
 
 Enough said!
