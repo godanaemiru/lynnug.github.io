@@ -4,13 +4,114 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lynnug.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lynnug.github.io" />
-<updated>2014-10-28T09:12:39+00:00</updated>
+<updated>2014-11-01T21:33:54+00:00</updated>
 <id>http://lynnug.github.io/</id>
 <author>
   <name>Lynn Asiimwe</name>
   <uri>http://lynnug.github.io/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Why functional programming?]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/why-functional-programming/" />
+  <id>http://lynnug.github.io/why-functional-programming</id>
+  <published>2014-11-01T00:00:00+00:00</published>
+  <updated>2014-11-01T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Last week I got the opportunity to attend a talk on functional programming using Clojure at thoughtworks Uganda geeknight(trying to look to link but I can’t find it). I found this talk interesting with the presenter making brilliant use of functional thinking and decided to do a deep dive into functional programming. I started off by reading &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0CB0QFjAA&amp;amp;url=http%3A%2F%2Fwww.cse.chalmers.se%2F~rjmh%2FPapers%2Fwhyfp.pdf&amp;amp;ei=BEZVVOPgFMOrPKW4gYgI&amp;amp;usg=AFQjCNGSJfyki6IWtpJeTA1-kWszquHyew&amp;amp;sig2=pXEKtm9O_fdnB27_ZQatDA&quot;&gt;Why functional programming matters by John Hughes&lt;/a&gt; and then reading the blog &lt;a href=&quot;http://www.defmacro.org/ramblings/fp.html&quot;&gt;Functional Programming For The Rest of Us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;functional-thinking-in-python&quot;&gt;Functional thinking in python&lt;/h1&gt;
+&lt;p&gt;Well i’m not conversant with Clojure , I’ve used a bit of scala however that doesn’t mean I can’t reap the advantages of fucntional programming in other languages.So functional programming is a set of ideas.Functional programming is primarly deals with calculations and uses functions to perform them. Functional programming allows us to keep the state of using functions and not variables. The state is usually kept in the function parameters. An example of doing this in our everyday function is using recursion. See python example below to reverse a string.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The function above is functional style. however its a memory hog as it keeps repeatedly assigning itself objects. So why would some want to use this?&lt;/p&gt;
+
+&lt;h1 id=&quot;benefits-of-functional-programming&quot;&gt;Benefits of Functional programming&lt;/h1&gt;
+
+&lt;h2 id=&quot;unit-testing&quot;&gt;Unit testing&lt;/h2&gt;
+
+&lt;p&gt;Functional programs have no side effects that is to say no external function or forces can change variables in a function. That means when testing all one has to worry about is the arguements passed to the function and the value returned&lt;/p&gt;
+
+&lt;h2 id=&quot;debugging&quot;&gt;Debugging&lt;/h2&gt;
+
+&lt;p&gt;Functional programs depend only what’s passed through the arguments. So when there’s a bug reproducing is easy since you look through the stack its the arguments passed to the function and its return values compared to imperative programming where external states can modify variables.&lt;/p&gt;
+
+&lt;h2 id=&quot;concurrency&quot;&gt;Concurrency&lt;/h2&gt;
+&lt;p&gt;With functional programs  one doesn’t have to worry about race conditions or deadlocks. No functional data is accessed by more than one thread or the same thread twice. Turns out Ecrission designed a functional language Erlang to help deal with concurrency issues for use in telecommunication switches.&lt;/p&gt;
+
+&lt;p&gt;This article only scratches the surface of functional programming. Well a small scratch can grow into a bigger scratch&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/why-functional-programming/&quot;&gt;Why functional programming?&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on November 01, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Simple Asymptotic Analysis of Recursive Relations]]></title>
+  <link rel="alternate" type="text/html" href="http://lynnug.github.io/Recursive-Relations/" />
+  <id>http://lynnug.github.io/Recursive-Relations</id>
+  <published>2014-10-29T00:00:00+00:00</published>
+  <updated>2014-10-29T00:00:00+00:00</updated>
+  <author>
+    <name>Lynn Asiimwe</name>
+    <uri>http://lynnug.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Asymptotic analysis is one of those topics that makes my head spin especially when it comes to performing it on recursive functions(recursion already makes my spin so double spin). I think found an easy of determing the run time of recursive functions , hopefully you find it useful.&lt;/p&gt;
+
+&lt;p&gt;Lets start with the three laws of recursion.
+* A recursive algorithm must have a base case
+* A recursive algorithm must change its state and move towards the base case
+* A recursive algorithm must call  itself , recursively!!&lt;/p&gt;
+
+&lt;p&gt;Given these laws we can come up with a recursive relation to describe the running time of a recursive relation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;            T(n)= a * T(g(n))+ f(n)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where a represents the number of recursive calls , g(n) is the size of each subproblem to be solved recursively and f(n) is any extra work done in the function.&lt;/p&gt;
+
+&lt;p&gt;Now lets take this try estimate the runtime for algorithm that finds the nth element in the Fibonacci sequence . &lt;/p&gt;
+
+&lt;p&gt;Below is a code representing the mentioned algorithm:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fib&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In the algorithm above we have g(n)s are n-2 and n-1 , a is 2 because we have two g(n)s and f(n) is 1 because we have to perform addition at the end. On our first recursive call we get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                    T(n)=2T(n-1)+1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On our second recursive call we get:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                    T(n)=2^2T(n-2)+2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;On our second recursive ,we have now have 4 recursive calls produced from our two previous recursive calls.
+We can see two equations and from our two equations we can come up with similarlities that gives us this :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                     T(n)=2^k T(n-k)+k
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Going back to our laws , our base case is always O(1) resulting in T(1)=1 which means n-k=1 or k=n-1. Which means we have :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                     T(n)=  2^(n-1)+n-1~ 2^n
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We have proved that this algorithm is exponential in a few steps. Go ahead and determine the runtime of other equations!!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Recursive-Relations/&quot;&gt;Simple Asymptotic Analysis of Recursive Relations&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on October 29, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -30,13 +131,13 @@
 &lt;p&gt;Being part of the team running the  &lt;a href=&quot;http://www.wopa.outbox.co.ug/about-wopa-program&quot;&gt;Women in Passion Programme&lt;/a&gt; at a local incubation hub Outbox has taught many things , biggest one is the power of a team where each member plays their role for the greater good of our ultimate goal. This team on a very tight budget has been able to achieve a quite alot and has been very honest with its achievements(also threatening to call it quits if we didn’t meet our goal). Enough about that , this brought to thinking about Software development , teams and solo programmers.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-myth&quot;&gt;The myth&lt;/h1&gt;
-&lt;p&gt;The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don’t exist(or rarely).Usually work in cave in order to hide their flaws.&lt;/p&gt;
+&lt;p&gt;The ultimate geek fantasy is to go off to your cave and write a tonne of code only to come out as the genius programmer that shocks the world. Well those don’t exist(or rarely).Usually work in cave in order to hide their flaws. In the video above &lt;a href=&quot;https://twitter.com/therealfitz&quot;&gt;Brian Fitzpatrick&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sussman&quot;&gt;Ben Collins-Sussman&lt;/a&gt; (googlers ) talk about this myth in depth , why we should care about and later guidelines to avoid in order to be a better programmer.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-should-you-care-about-this-myth&quot;&gt;Why should you care about this myth?&lt;/h1&gt;
 &lt;p&gt;This usually results in no progress. Code quality is low and reduces the bus factor. Bus factor is the number of people on a software project that need to be hit by a bus that results in an insane amount of hell.&lt;/p&gt;
 
 &lt;h1 id=&quot;new-guidelines&quot;&gt;New Guidelines&lt;/h1&gt;
-&lt;p&gt;Instead of working solo , Brian Fitzpatrick and Ben Collins-Sussman (googlers ) believe to improve code quality and increase bus factor software should be built as team and with as open communication as possible.&lt;/p&gt;
+&lt;p&gt;Instead of working solo , &lt;a href=&quot;https://twitter.com/therealfitz&quot;&gt;Brian Fitzpatrick&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/sussman&quot;&gt;Ben Collins-Sussman&lt;/a&gt; (googlers ) believe to improve code quality and increase bus factor software should be built as team and with as open communication as possible.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -58,7 +159,7 @@
 
 &lt;h1 id=&quot;overcoming-the-myth&quot;&gt;Overcoming the myth&lt;/h1&gt;
 
-&lt;p&gt;Currently I’m a very small fish . Inorder to grow  I’m taking the following steps:&lt;/p&gt;
+&lt;p&gt;Currently I’m a very small fish . Inorder to grow, I’m taking the following steps:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -77,7 +178,7 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Introduction to TDD python]]></title>
+  <title type="html"><![CDATA[Simple Introduction to TDD python]]></title>
   <link rel="alternate" type="text/html" href="http://lynnug.github.io/Intro-to-TDD-python/" />
   <id>http://lynnug.github.io/Intro-to-TDD-python</id>
   <published>2014-10-27T00:00:00+00:00</published>
@@ -107,9 +208,11 @@
   &lt;li&gt;assertRaises(ERROR, a, args) - check that when a is called with args that it raises ERROR&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;next-pip-install-nose-which-is-a-python-unit-testing-package&quot;&gt;Next pip install nose which is a python unit testing package&lt;/h2&gt;
+&lt;h2 id=&quot;next-pip-install-nose&quot;&gt;Next pip install nose&lt;/h2&gt;
 
-&lt;h2 id=&quot;next-code&quot;&gt;Next code&lt;/h2&gt;
+&lt;p&gt;nose is python unit testing package&lt;/p&gt;
+
+&lt;h2 id=&quot;next-example&quot;&gt;Next Example&lt;/h2&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#calculator.py&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -117,9 +220,7 @@
 &lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Here’s a revised solution that solves all cases&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#testCalculator.py&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#testcalc.py&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;unittest&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;calculator&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Calculator&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;  
@@ -133,10 +234,22 @@
 &lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;unittest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Writing tests in python is pretty simple
-In testCalculator.py,
--import the unittest module from python library
--we add a class to hold all out test cases
--the test method needs to to begin with “test_” which can be picked up nosetest runner for execution&lt;/p&gt;
+Our code to be tested is in calculator.py and our tests in testcalc.py.
+In testcalc.py,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;import the unittest module from python library&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we add a class to hold all out test cases&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;the test method needs to to begin with “test_” which can be picked up nosetest runner for execution&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When we run our tests we get a failed test at a particular line number.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;a href=&quot;http://lynnug.github.io/images/failed-test-1.png
 &quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/failed-test-1.png
@@ -145,10 +258,76 @@ In testCalculator.py,
 &quot; title=&quot;Failed test&quot;&gt;Failed test&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h1 id=&quot;to-be-continued&quot;&gt;to be continued&lt;/h1&gt;
+&lt;p&gt;lets edit our calculator.py and run our tests once more&lt;/p&gt;
 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#calculator.py&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Intro-to-TDD-python/&quot;&gt;Introduction to TDD python&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on October 27, 2014.&lt;/p&gt;</content>
+&lt;p&gt;this is the result  of our test&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/passed-test-1.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/passed-test-1.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/passed-test-1.png
+&quot; title=&quot;Failed test&quot;&gt;Passed test&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Woop!! Woop!! , our test passed. However what if someone puts in strings instead of intergers. So we’ve gotten comfortable testing what the case we are currently interested in. Let’s stir it up.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;unittest&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;calculator&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Calculator&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TddInPythonExample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unittest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TestCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setUp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;         &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;calc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;         
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_calculator_add_method_returns_correct_result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;     	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;calc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;assertEqual&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_calculator_returns_error_message_if_both_args_not_numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt;    		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;assertRaises&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ne&quot;&gt;ValueError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;calc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;two&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;three&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;unittest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;From the above code we have added a setUp function which aids in setting up our test object that will subsequently be used in our other tests. We have also added a test that checks for ValueError if strings are passed. Now lets run our tests.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/failed-test-2.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/failed-test-2.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/failed-test-2.png
+&quot; title=&quot;Failed test&quot;&gt;Failed test&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our one test fails because we fail to raise a ValueError, lets edit our calculator code to raise one.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Calculator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;number_types&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;long&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;complex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;  
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;isinstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;isinstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;             &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;9&lt;/span&gt;             &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;ne&quot;&gt;ValueError&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;From the above code you can see we do a check to see if x and y are numbers using isinstance. Now lets run our code. Below is our outcome.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;http://lynnug.github.io/images/passed-test-2.png
+&quot;&gt;&lt;img src=&quot;http://lynnug.github.io/images/passed-test-2.png
+&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a href=&quot;http://lynnug.github.io/images/passed-test-2.png
+&quot; title=&quot;Failed test&quot;&gt;Passed test&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That’s simple example of testing using nose in python. Go forth and write more tests :)&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lynnug.github.io/Intro-to-TDD-python/&quot;&gt;Simple Introduction to TDD python&lt;/a&gt; was originally published by Lynn Asiimwe at &lt;a href=&quot;http://lynnug.github.io&quot;&gt;Lynn Asiimwe's Chronicles&lt;/a&gt; on October 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 
