@@ -6,9 +6,7 @@ tags: [ code]
 comments: true
 ---
 
-Last month I got the opportunity to attend a talk on refactoring at thoughtworks Uganda geeknight by Martin Fowler (trying to look to link but I can't find it(again)). I think refactoring is a powerful concept yet very simple([Fowler's book](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) on refactoring nails in chapter 1). I have met several developers who have brushed me off and told me their code I quote "works" and the structure doesn't matter. Well structure matters.
-
-These are my four reasons for refactoring
+Last month I got the opportunity to attend a talk on refactoring at thoughtworks Uganda geeknight by Martin Fowler (trying to look to link but I can't find it(again)). I think refactoring is a powerful concept yet very simple([Fowler's book](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) on refactoring nails in chapter 1). I have met several developers who have brushed me off and told me their code I quote "works" and the structure doesn't matter. Well structure matters.These are my four reasons for refactoring
 
 #Katogo is great to eat but not good to read
 
@@ -25,10 +23,28 @@ Katogo is a traditional dish in Uganda  which consists of mixture of numerous in
 
 
 #Your code smells
+<figure>
+	<a href="http://lynnug.github.io/images/dude-wait-what.png
+"><img src="http://lynnug.github.io/images/dude-wait-what.png
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/dude-wait-what.png
+" title="cutecat">The feeling i get when i see code smell</a>.</figcaption>
+</figure>
+dude-wait-what.png
 Writing code is very similar to writing an essay. When your writing an essay no submits a draft as their final copy. A draft  helps you put out your arguments about something. Well now you have a draft , time to make it clear and straight to point. This where refactoring comes in. So that when you submit your code/essay people will know what your saying or convey.
 
 
-#Repeation sucks
+#Repetition sucks
+
+<figure>
+	<a href="http://lynnug.github.io/images/sluggo-on-repetition1.jpg
+"><img src="http://lynnug.github.io/images/sluggo-on-repetition1.jpg
+"></a>
+	<figcaption><a href="http://lynnug.github.io/sluggo-on-repetition1.jpg
+" title="repetition"></a>.</figcaption>
+</figure>
+
+
 Oh my word I can't stress this more!!! Quote from the [pragmatic programmer](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 
 > Every piece of knowledge must have a single ,unambiguous authoritiative representation within a system.
@@ -37,4 +53,12 @@ Enough said!
 
 
 #Its a matter of economics
+<figure>
+	<a href="http://lynnug.github.io/images/money-rolls.jpg
+"><img src="http://lynnug.github.io/images/money-rolls.jpg
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/money-rolls.jpg
+" title="dollarbills">Time == Money</a>.</figcaption>
+</figure>
+
 Without refactoring , developers are always going to be in technical debt which accumulates. And we all have to pay our debts. For a developer its time and if you work for a company this pretty much a waste of your company/clients time and money. Adding features to a product is painful , adding developers to a new team is painful , maintaining is painful!!
