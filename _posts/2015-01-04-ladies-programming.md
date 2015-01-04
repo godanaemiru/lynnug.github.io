@@ -5,6 +5,13 @@ description: "Oh yes,I'm teaching Ugandan ladies how to program"
 tags: [ code,ladies ]
 comments: true
 ---
+<figure>
+	<a href="http://lynnug.github.io/images/57742365.jpg
+"><img src="http://lynnug.github.io/images/57742365.jpg
+"></a>
+	<figcaption><a href="http://lynnug.github.io/images/57742365.jpg
+" title=""></a>.</figcaption>
+</figure>
 In the past I have run several coding programs for ladies in Uganda which I viewed as total failures since none of the ladies actually went to become full time programmers. It was really disheartening and I vowed not get involved again as it was time consuming and going nowhere. Mid last year , Richard Zulu (founder of outbox an incubation hub in Uganda) got in touch me and said he was running a coding program aimed at ladies at outbox. Intially I was skeptical however on our first meeting with the team Richard has assembled , their passion rub off on me .
 
 #Connect the dots backwards
